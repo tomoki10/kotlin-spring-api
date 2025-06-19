@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Test reports
+test-results/
+test-output/
+
+# Spring Boot
+spring.log
+
+# Environment
+.env

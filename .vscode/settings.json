@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.focusWindowOnConfirmation": false,
+    "github.copilot.chat.confirmCodeExecution": false,
+    "github.copilot.chat.autoApplyEdits": true,
+    "github.copilot.chat.confirmTerminalCommands": false,
+    "github.copilot.chat.runCommands": "always"
+}
