@@ -1,3 +1,7 @@
+---
+applyTo: "**"
+---
+
 # GitHub Copilot カスタムインストラクション for Kotlin Spring Boot Todo API
 
 このプロジェクトはKotlinとSpring Bootを用いた3層アーキテクチャのTodoリストAPIです。以下のガイドラインに従い、Copilotの提案やPRレビュー、Issueコメントを最適化してください。
