@@ -28,6 +28,7 @@ test-output/
 
 # Spring Boot
 spring.log
+bin
 
 # Environment
 .env
