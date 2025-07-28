@@ -29,3 +29,22 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         jvmTarget = "1.8"
     }
 }
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+// Kotlin設定
+// kotlin {
+//     jvmToolchain(17)
+// }
+
+// ソースセット設定
+// sourceSets {
+//     main {
+//         kotlin.srcDir("src/main/kotlin")
+//     }
+//     test {
+//         kotlin.srcDir("src/test/kotlin")
+//     }
+// }

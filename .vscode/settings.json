@@ -1,7 +1,15 @@
 {
-    "github.copilot.chat.focusWindowOnConfirmation": false,
-    "github.copilot.chat.confirmCodeExecution": false,
-    "github.copilot.chat.autoApplyEdits": true,
-    "github.copilot.chat.confirmTerminalCommands": false,
-    "github.copilot.chat.runCommands": "always"
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "chat.tools.autoApprove": true,
+    "chat.agent.maxRequests": 50,
+    "github.copilot.chat.agent.terminal.allowList": {
+        "npm run": true
+    },
+    "github.copilot.chat.agent.terminal.denyList": {
+        "rm -rf": true
+    },
+    "java.compile.nullAnalysis.mode": "automatic",
+    "kotlin.languageServer.enabled": true,
+    "kotlin.compiler.jvm.target": "17",
+    "java.configuration.updateBuildConfiguration": "automatic",
 }
